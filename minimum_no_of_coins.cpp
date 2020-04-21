@@ -44,7 +44,6 @@ int main()
 	uli n, x; cout <<"\nSize of coin array: "; cin >> n;
 
 	vector<uli> v(n); cout <<"\nEnter the coin values: ";
-	
 	for(uli i = 0; i < n; ++i) { cin >> v[i]; }
 
 	cout <<"\nEnter the value of change to be made: "; cin >> x;

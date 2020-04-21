@@ -20,8 +20,7 @@ int main()
 	}
 
 	cout <<"\nThe distinct sub-strings are: "<< endl; int count = 0;
-	for (auto i = set.begin(); i != set.end(); ++i)
-	{
+	for (auto i = set.begin(); i != set.end(); ++i) {
 		cout <<"--> "<< *i << endl;
 		count++;
 	}

@@ -1,5 +1,4 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 typedef unsigned long long int uli;
@@ -15,7 +14,6 @@ uli facotrial(uli n, uli i)
 		uli temp = facotrial(n-1, i-1);
 		a[i] = n*temp;
 	}
-
 }
 
 int main()

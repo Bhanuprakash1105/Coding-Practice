@@ -14,7 +14,6 @@ int main()
 	cin >> s;
 
 	std::map<char, uli> m;
-
 	for (uli i = 0; i < s.length(); ++i) { m[s[i]] += 1; }
 
 	uli repeated = 1;
@@ -23,9 +22,7 @@ int main()
 			repeated = repeated*factorial(i->second);
 		}
 	}
-
 	uli r = factorial(s.length())/repeated;
-
 	cout <<"\nNo.of distinct permuatutions = "<< r << endl;
 
 	cout << endl;

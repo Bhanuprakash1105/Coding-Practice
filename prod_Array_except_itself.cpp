@@ -1,8 +1,6 @@
 //NOTE: Problem is solved without using DIVISION
 #include <bits/stdc++.h>
-
 using namespace std;
-
 typedef long long int li;
 
 int main()
@@ -10,6 +8,7 @@ int main()
 	li size; cout <<"\nEnter the size: "; cin >> size;
 	
 	vector<li> v(size, 0), r(size, 0), b(size, 1), a(size, 1);;
+	cout <<"\nEnter the values of array: ";
 	for(li i = 0; i < size; ++i) { cin >> v[i]; }
 	
 	bool flag = false;

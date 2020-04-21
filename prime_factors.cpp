@@ -1,9 +1,7 @@
 #include "iostream"
 #include "vector"
 #include "cmath"
-
 using namespace std;
-
 typedef long long int li;
 
 vector<li> primeFactors(li n)
@@ -31,18 +29,14 @@ vector<li> primeFactors(li n)
 
 int main()
 {
-	ios_base::sync_with_stdio(false);
-
 	li n;
 	cout <<"\nEnter a number: "; cin >> n;
-
+	
 	std::vector<li> v = primeFactors(n);
-
 	cout <<"\nThe prime factors are: ";
 	for(auto itr = v.begin(); itr != v.end(); ++itr) {
 		cout << *itr <<" ";
 	} cout << endl;
-
 	v.clear();
 
 	cout << endl;
